@@ -15,7 +15,7 @@ body {
   margin: auto;
 }
 
-/*class of flex*/
+/*set a class of flex*/
 .flex {
   display: flex;
 }
@@ -86,9 +86,6 @@ header .flex {
 
 
 
-
-/* Supporting Sections */
-
 .secondcontainer {
   display: flex;
   justify-content: center;
@@ -96,9 +93,9 @@ header .flex {
 
 
 
-/* Service Section */
+/* myervice Section */
 
-.services {
+.myservices {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -109,12 +106,12 @@ header .flex {
   height: 8rem;
 }
 
-.services img {
+.myservices img {
   width: 5rem;
   margin-bottom: 1rem;
 }
 
-.services img.paper {
+.myservices img.paper {
   width: 3.5rem;
 }
 
@@ -130,14 +127,14 @@ header .flex {
   padding: 1rem 0;
 }
 
-.title {
+.heading {
   background-color: cadetblue;
   padding: 0.5rem 1.25rem;
   font-weight: bold;
   color: white;
   max-width: 10rem;
 }
-.title h2 {
+.heading h2 {
   text-align: center;
 }
 
@@ -221,7 +218,7 @@ footer img {
 
 
 @media only screen and (max-width: 560px) {
-  .services {
+  .myservices {
     height: auto;
     margin: .77rem;
     font-size: .77rem;
